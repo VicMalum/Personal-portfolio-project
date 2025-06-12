@@ -1,0 +1,216 @@
+:root {
+    --background-color: #5459AC;
+    --text-color: #B2D8CE;
+    --accent-color: #52357B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding-bottom: 1em;
+}
+
+nav h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav div ul li a {
+    color: var(--text-color);
+    padding: 1em 2em;
+    transition: 0.5s;
+}
+
+nav div ul li a:hover {
+    color: var(--accent-color);
+    text-shadow: var(--text-color) 1px 0 10px;
+}
+
+main {
+    background-color: var(--background-color);
+}
+
+.Hero {
+    text-align: center;
+    padding: 5em ;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.Hero h1 {
+    margin-bottom: 1.5em;
+}
+
+.TechInfo, .reviews {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.projects-title, .item-2 h3, .reviews h4 {
+    padding: 1em;
+    font-size: 25px;
+}
+
+.Projects-info {
+    display: flex;
+    list-style: none;
+}
+
+.Projects-info li, .item-2 li, .item-3 h4, .item-3 p, .item-3 li {
+    margin: 0.5em;
+    margin-bottom: 1em;
+}
+
+.container-review-card {
+    padding: 1em 2em;
+}
+
+.container-review-card h6 {
+    font-size: 17px;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+main h1 {
+    text-align: center;
+    background-color: var(--background-color);
+    border-radius: 15px;
+}
+
+.projects-body, .main-article {
+    height: 100vh;
+    text-align: center;
+}
+
+.contact-container {
+    height: 100vh;
+}
+
+.projects-body ul {
+    list-style: none;
+}
+
+.projects-body li {
+    margin: 1em 2em;
+}
+
+.contact-container h1 {
+    padding: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container form input, textarea {
+    margin: 10px;
+}
+/*
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #601700;
+    color: #E0D0C1;
+    padding: 10px;
+}
+
+nav div ul {
+    display: flex;
+}
+
+nav div ul li {
+    margin: 10px;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#A76D60;
+}
+
+main section.Hero{
+    padding: 100px 0px;
+}
+
+main section.Hero h1{
+    margin: 15px 
+}
+
+main section.TechInfo {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 25vw 25vw ; 
+}
+
+main section.TechInfo div.item {
+    padding: 10px;
+}
+
+.item-1 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.projects-title {
+    height: 70px;
+}
+
+.item-2 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.item-3 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.reviews div {
+    display: flex;
+}
+
+.reviews h4 {
+    padding: 16px 30px;
+    border-top: 1px solid black; 
+}
+
+.container-review-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-review-card p{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+*/
